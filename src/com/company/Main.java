@@ -2,12 +2,13 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 4; i++) {
-            System.out.println("Hello guys!");
-        }
-        List<Integer> arr = new ArrayList<>();
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println("A to B " + a);
     }
 }
